@@ -423,7 +423,8 @@ nav ul li:nth-child(5).active~.indicator {
        height: 55px;
     }
     nav ul li a .text{
-        font-size: 0.6em;
+        font-size: 0.8em;
+        color: white;
 
     }
     .indicator
@@ -437,7 +438,7 @@ nav ul li:nth-child(5).active~.indicator {
     }
     .right{
         position:fixed;
-        top:90%;
+        top:599px;
         bottom:0;
         right:0;
         width: 100%;
@@ -483,7 +484,7 @@ nav ul li:nth-child(5).active~.indicator {
     .only_mobile ul
     {
         display:flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
